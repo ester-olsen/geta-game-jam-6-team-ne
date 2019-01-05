@@ -1,4 +1,4 @@
-var mana_timer_max = 5 * 60;
+var mana_timer_max = 3 * 60;
 
 if (mana_timer == -1) {
 	mana_timer = mana_timer_max;
