@@ -130,7 +130,7 @@
             "Key": "5448bd05-fd0d-4dc6-8f0e-0167c2932465",
             "Value": {
                 "id": "f3bdbdf5-db39-40b2-b22a-a22d904ceb54",
-                "resourcePath": "objects\\obj_blue_unit\\obj_blue_unit.yy",
+                "resourcePath": "objects\\obj_small_water_unit\\obj_small_water_unit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -156,6 +156,14 @@
                 "id": "01b275db-9290-4dc8-886e-f277f304b242",
                 "resourcePath": "views\\750fe294-1c66-4077-aca3-89c7ee10da68.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7a149691-fed8-4620-bfad-b6a9870e75c5",
+            "Value": {
+                "id": "660c7aaf-d027-4508-9dd8-102511693669",
+                "resourcePath": "objects\\obj_medium_fire_unit\\obj_medium_fire_unit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "9ad7abc4-49e7-4066-9bdb-935e4f986da3",
+            "Value": {
+                "id": "4221a62c-b7b5-4fc2-adfe-224a7fb410da",
+                "resourcePath": "sprites\\spr_blue_square\\spr_blue_square.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b768a03-94ef-4b75-9f09-c18851ac7d25",
             "Value": {
                 "id": "b703cbcd-f3af-41d1-ba75-751a3f31982a",
@@ -210,7 +226,7 @@
             "Key": "a1f4a8db-1c6f-4d9f-a5ea-a82adbb44ddf",
             "Value": {
                 "id": "15b48fb9-71d0-415a-be12-4f1f42737850",
-                "resourcePath": "objects\\obj_red_unit\\obj_red_unit.yy",
+                "resourcePath": "objects\\obj_small_fire_unit\\obj_small_fire_unit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "d9f877cb-75ac-44c8-b351-d5e5329f6927",
+            "Value": {
+                "id": "082e1f86-1fed-4c46-a316-8cee9bf4e5a3",
+                "resourcePath": "objects\\obj_medium_water_unit\\obj_medium_water_unit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3a03c73-3ee1-4b50-b0f0-4806e9d889e0",
             "Value": {
                 "id": "fb4fbe71-e0f5-4b7e-8474-f5da70512188",
@@ -292,6 +316,14 @@
                 "id": "0357fd28-8870-4bb8-b773-c9bb9b6989bf",
                 "resourcePath": "objects\\obj_enemy_controller\\obj_enemy_controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed2296c5-1be5-4069-bdf7-2639b624aeca",
+            "Value": {
+                "id": "0376b1d5-4f95-4089-acfd-c8a707d208dc",
+                "resourcePath": "sprites\\spr_red_square\\spr_red_square.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

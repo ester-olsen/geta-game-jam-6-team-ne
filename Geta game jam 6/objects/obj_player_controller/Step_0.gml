@@ -9,14 +9,22 @@ if (mouse_check_button_pressed(mb_left)) && (instance_exists(unit_card)) && (!is
 		
 		/// Draw card
 		with (instance_create_layer(unit_card.x, unit_card.y, layer, obj_unit_card)) {
-			switch (irandom_range(0, 1)) {
+			switch (irandom_range(0, 3)) {
 				case 0:
-					unit_object_index = obj_red_unit;
-					label = "Fire";
+					unit_object_index = obj_small_fire_unit;
+					label = "SF";
 					break;
 				case 1:
-					unit_object_index = obj_blue_unit;
-					label = "Water";
+					unit_object_index = obj_small_water_unit;
+					label = "SW";
+					break;
+				case 2:
+					unit_object_index = obj_medium_fire_unit;
+					label = "MF";
+					break;
+				case 3:
+					unit_object_index = obj_medium_water_unit;
+					label = "MW";
 					break;
 			}
 		}

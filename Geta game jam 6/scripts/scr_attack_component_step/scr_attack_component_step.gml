@@ -32,6 +32,14 @@ else if (attack_timer <= 0) {
 	/// Deal damage
 	var damage = 1;
 	
+	if (is_effective_against_small) && (unit.is_small_type) {
+		damage++;
+	}
+	
+	if (is_effective_against_medium) && (unit.is_medium_type) {
+		damage++;
+	}
+	
 	if (is_effective_against_fire) && (unit.has_fire_element) {
 		damage++;
 	}

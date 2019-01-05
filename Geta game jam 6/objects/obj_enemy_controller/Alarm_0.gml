@@ -1,5 +1,5 @@
 /// @description Deploy unit
-with (instance_create_layer(464, 144, layer, obj_red_unit)) {
+with (instance_create_layer(464, 144, layer, obj_small_fire_unit)) {
 	is_player = false;
 }
 
