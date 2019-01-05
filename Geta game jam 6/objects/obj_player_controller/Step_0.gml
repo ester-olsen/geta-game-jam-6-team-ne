@@ -2,7 +2,7 @@
 var unit_card = instance_position(mouse_x, mouse_y, obj_unit_card)
 
 if (mouse_check_button_pressed(mb_left)) && (instance_exists(unit_card)) && (!is_undefined(unit_card.unit_object_index)) {
-	if (mana_points >= unit_card.mana_cost) {
+	if (mana_points >= unit_card.mana_cost) && (!position_meeting(16, 144, parent_object)) {
 		/// Create unit
 		mana_points -= unit_card.mana_cost;
 		instance_create_layer(16, 144, layer, unit_card.unit_object_index);

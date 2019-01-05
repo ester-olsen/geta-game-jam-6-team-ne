@@ -13,7 +13,7 @@ else {
 	unit = instance_position(x - sprite_width, y, parent_object);
 }
 
-if (instance_exists(unit)) {
+if (instance_exists(unit)) && (unit.object_index != obj_base) {
 	return;
 }
 
