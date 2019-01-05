@@ -119,6 +119,22 @@
             }
         },
         {
+            "Key": "8147f444-7884-4931-9b15-d6aca388a898",
+            "Value": {
+                "id": "407c8a44-9d07-4070-bfef-b3cf0812b987",
+                "resourcePath": "objects\\obj_unit\\obj_unit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b768a03-94ef-4b75-9f09-c18851ac7d25",
+            "Value": {
+                "id": "b703cbcd-f3af-41d1-ba75-751a3f31982a",
+                "resourcePath": "sprites\\spr_circle\\spr_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9654a2f-ce1e-4499-a79a-be4003c2ba11",
             "Value": {
                 "id": "872c2924-eab1-4006-9159-252ed1d2533d",
@@ -159,10 +175,18 @@
             }
         },
         {
+            "Key": "e3a03c73-3ee1-4b50-b0f0-4806e9d889e0",
+            "Value": {
+                "id": "fb4fbe71-e0f5-4b7e-8474-f5da70512188",
+                "resourcePath": "objects\\obj_game_controller\\obj_game_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fcd02e7e-9508-4c73-9b25-efa367dbb2cf",
             "Value": {
                 "id": "4216ac16-8053-4baf-9820-26ba3973a6ef",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_main\\rm_main.yy",
                 "resourceType": "GMRoom"
             }
         },
