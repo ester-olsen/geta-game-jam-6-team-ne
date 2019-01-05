@@ -29,7 +29,17 @@ else if (attack_timer > 0) {
 	attack_timer--;
 }
 else if (attack_timer <= 0) {
-	/// Attack
-	unit.hit_points--;
+	/// Deal damage
+	var damage = 1;
+	
+	if (is_effective_against_fire) && (unit.has_fire_element) {
+		damage++;
+	}
+	
+	if (is_effective_against_water) && (unit.has_water_element) {
+		damage++;
+	}
+	
+	unit.hit_points -= damage;
 	attack_timer = undefined;
 }
