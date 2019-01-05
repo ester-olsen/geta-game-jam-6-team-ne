@@ -1,6 +1,7 @@
-is_player = true;
-is_enhanced = false;
+event_inherited();
+
 hit_points = 3;
-state = "moving";
-target_unit = noone;
-friendly_unit = noone;
+
+has_hit_points_component = true;
+has_attack_component = true;
+has_movement_component = true;
