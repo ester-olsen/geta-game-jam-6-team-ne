@@ -1,12 +1,23 @@
+var unit = noone;
+
 if (is_player_unit) {
-	target_unit = instance_position(x + sprite_width, y, obj_unit);
+	unit = instance_position(x + sprite_width, y, obj_unit);
 }
 else {
-	target_unit = instance_position(x - sprite_width, y, obj_unit);
+	unit = instance_position(x - sprite_width, y, obj_unit);
 }
 
-if (instance_exists(target_unit)) && (target_unit.is_player_unit == is_player_unit) {
+if (instance_exists(unit)) && (unit.is_player_unit == is_player_unit) {
 	target_unit = noone;
+	friendly_unit = unit;
+}
+else if (instance_exists(unit)) && (unit.is_player_unit != is_player_unit) {
+	target_unit = unit;
+	friendly_unit = noone;
+}
+else {
+	target_unit = noone;
+	friendly_unit = noone;
 }
 
 
@@ -26,6 +37,9 @@ if (state == "moving") {
 	if (instance_exists(target_unit)) {
 		state = "attacking";
 	}
+	else if (instance_exists(friendly_unit)) {
+		state = "waiting";
+	}
 }
 else if (state == "attacking") {
 	/// Attack
@@ -34,6 +48,13 @@ else if (state == "attacking") {
 	}
 	
 	if (!instance_exists(target_unit)) {
+		state = "moving";
+	}
+}
+else if (state == "waiting") {
+	/// Wait
+	
+	if (!instance_exists(friendly_unit)) {
 		state = "moving";
 	}
 }
