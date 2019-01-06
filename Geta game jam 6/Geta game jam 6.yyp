@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "31e04b4c-11eb-4492-8232-88ff4a24c578",
+            "Value": {
+                "id": "45b4621d-2ef7-4925-8e26-da481586928a",
+                "resourcePath": "sprites\\spr_lane_collision\\spr_lane_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "38a03479-b022-4818-815d-7afc98402439",
             "Value": {
                 "id": "7010598a-8064-4f01-affd-5f714bbeae9d",
@@ -132,6 +140,14 @@
                 "id": "f3bdbdf5-db39-40b2-b22a-a22d904ceb54",
                 "resourcePath": "objects\\obj_small_water_unit\\obj_small_water_unit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ba5e49b-0afb-4ee3-811b-1f1dbf34857a",
+            "Value": {
+                "id": "360167d0-b496-46b4-84e8-bba2d14328f7",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -299,6 +315,14 @@
             "Value": {
                 "id": "082e1f86-1fed-4c46-a316-8cee9bf4e5a3",
                 "resourcePath": "objects\\obj_medium_water_unit\\obj_medium_water_unit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0c4612d-ce94-4635-bc8a-8498d6c6fc18",
+            "Value": {
+                "id": "ac2f51b3-b4fc-4dd5-8ac6-2b773747d309",
+                "resourcePath": "objects\\obj_lane\\obj_lane.yy",
                 "resourceType": "GMObject"
             }
         },

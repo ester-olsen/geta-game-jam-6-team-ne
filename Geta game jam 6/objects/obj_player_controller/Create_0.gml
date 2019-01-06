@@ -1,5 +1,6 @@
 mana_points = 0;
 mana_timer = -1;
+unit_card = noone;
 
 with (obj_unit_card) {
 	with (instance_create_layer(x, y, layer, obj_unit_card)) {

@@ -18,7 +18,7 @@ if (instance_exists(unit)) && (unit.object_index != obj_base) {
 }
 
 /// Move
-var movement = 1;
+var movement = 0.5;
 
 if (is_player) {
 	x += movement;
