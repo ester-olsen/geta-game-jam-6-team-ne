@@ -19,10 +19,15 @@ else {
 	unit_x = lane.x + lane.sprite_width - unit_width / 2;
 }
 
-with (instance_create_layer(unit_x, unit_y, lane.layer, unit_object_index)) {
+/// Spawn unit
+var unit_instance = instance_create_layer(unit_x, unit_y, lane.layer, unit_object_index);
+
+with (unit_instance) {
 	id.is_player = is_player;
 	
 	if (!is_player) {
 		image_xscale = -1;
 	}
 }
+
+return unit_instance;

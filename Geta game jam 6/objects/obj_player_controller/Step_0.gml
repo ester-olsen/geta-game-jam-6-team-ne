@@ -54,7 +54,17 @@ else {
 		}
 		
 		/// Spawn unit
-		scr_spawn_unit(unit_card.unit_object_index, lane, true);
+		var unit_instance = scr_spawn_unit(unit_card.unit_object_index, lane, true);
+		
+		if (unit_instance.has_fire_element) {
+			audio_play_sound(snd_summon_fire_unit, 50, false);
+		}
+		if (unit_instance.has_water_element) {
+			audio_play_sound(snd_summon_water_unit, 50, false);
+		}
+		if (unit_instance.has_grass_element) {
+			audio_play_sound(snd_summon_grass_unit, 50, false);
+		}
 		
 		/// Pay mana cost
 		mana_points -= unit_card.mana_cost;

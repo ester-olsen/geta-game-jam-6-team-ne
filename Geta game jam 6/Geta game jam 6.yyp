@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "3116d68e-dc8b-425e-99d4-e49335202d21",
+            "Value": {
+                "id": "7abc6f69-c0f9-4fd0-b7ff-7007c9b4296a",
+                "resourcePath": "sounds\\snd_summon_fire_unit\\snd_summon_fire_unit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "31e04b4c-11eb-4492-8232-88ff4a24c578",
             "Value": {
                 "id": "45b4621d-2ef7-4925-8e26-da481586928a",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "5df8942a-9fd8-4152-b41d-effa98d6e59d",
+            "Value": {
+                "id": "80eae143-7fb3-4f71-b662-ca376e7baac7",
+                "resourcePath": "sounds\\snd_summon_grass_unit\\snd_summon_grass_unit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "60032033-9f77-4823-b4fc-d71ebb749552",
             "Value": {
                 "id": "0b668356-1633-4a01-85dc-5fdeae14aa45",
@@ -300,6 +316,14 @@
                 "id": "6a454b9b-7597-4f32-ada0-7d05cb5f4174",
                 "resourcePath": "sprites\\spr_rectangle\\spr_rectangle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "635403b6-be47-41e9-95ff-7ab85422a189",
+            "Value": {
+                "id": "b1bc4e63-972d-457a-aeae-3853f780e9a9",
+                "resourcePath": "sounds\\snd_summon_water_unit\\snd_summon_water_unit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -620,6 +644,14 @@
                 "id": "02b4d06a-d90d-4f30-82fd-71bc00eb63c6",
                 "resourcePath": "sprites\\spr_large_water_unit_card\\spr_large_water_unit_card.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed0f3837-5ee3-4543-9759-b1adda508ca9",
+            "Value": {
+                "id": "3ec7fbc5-c4c2-4ab7-b2d8-f528fbcba50d",
+                "resourcePath": "views\\ed0f3837-5ee3-4543-9759-b1adda508ca9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
