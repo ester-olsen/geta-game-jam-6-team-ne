@@ -48,6 +48,16 @@ with (parent_object) {
 	if (is_player) && (x > goal_line) {
 		other.hit_points--;
 		instance_destroy();
+		
+		with (obj_player_alchemist) {
+			sprite_index = spr_player_alchemist_damage;
+			alarm[0] = 2 * 60;
+		}
+		
+		with (obj_enemy_alchemist) {
+			sprite_index = spr_enemy_alchemist_hurt;
+			alarm[0] = 2 * 60;
+		}
 	}
 }
 

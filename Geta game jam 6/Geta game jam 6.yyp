@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1c3c85d0-5360-425f-a61a-4a0db8c6b8ce",
+            "Value": {
+                "id": "6e652995-2077-4d97-9eb3-8f26ecd16735",
+                "resourcePath": "objects\\obj_enemy_alchemist\\obj_enemy_alchemist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1fe86f14-bf66-46bf-be37-230f5a0bb84c",
             "Value": {
                 "id": "17a20cc1-3ae9-46fe-b92e-128e06287ac3",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "4f439e68-5f23-4b41-bbca-d73eac2c6319",
                 "resourcePath": "sprites\\spr_medium_fire_unit_card\\spr_medium_fire_unit_card.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "213df6a1-8cb8-4145-ac19-24070801a263",
+            "Value": {
+                "id": "368988a5-b35b-41c3-8002-7858b0918959",
+                "resourcePath": "sprites\\spr_enemy_alchemist_idle\\spr_enemy_alchemist_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "4f509283-f7c8-468d-b224-28074f4a71d4",
+            "Value": {
+                "id": "b3daf5fd-3683-4fe3-a234-33dbee29a96f",
+                "resourcePath": "sprites\\spr_enemy_alchemist_hurt\\spr_enemy_alchemist_hurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "505a2fca-e803-4b4e-8dcf-3151d5b4928b",
             "Value": {
                 "id": "d18e1729-227d-46a9-a53a-10df5896e5b9",
@@ -383,6 +407,30 @@
             }
         },
         {
+            "Key": "6081b34f-ae3b-4a64-9efe-9e21c029b6f3",
+            "Value": {
+                "id": "16c7e606-f7c1-4c78-a5b8-1c0b017766f6",
+                "resourcePath": "sprites\\spr_enemy_alchemist_damage\\spr_enemy_alchemist_damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "625e4357-1097-414e-ad9d-5d672b8047b8",
+            "Value": {
+                "id": "52dd6e86-8945-4f67-8134-d4f5805bd5da",
+                "resourcePath": "sprites\\spr_player_alchemist_damage\\spr_player_alchemist_damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "626b177a-fcc2-4c58-a311-c0793f8aac53",
+            "Value": {
+                "id": "be8b9664-22e6-480b-b5ad-19bbd8519272",
+                "resourcePath": "objects\\parent_alchemist\\parent_alchemist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "635403b6-be47-41e9-95ff-7ab85422a189",
             "Value": {
                 "id": "b1bc4e63-972d-457a-aeae-3853f780e9a9",
@@ -412,6 +460,14 @@
                 "id": "eae56e31-f299-44a7-ae8f-3dc70dd8b043",
                 "resourcePath": "sprites\\spr_large_fire_unit_attack\\spr_large_fire_unit_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "73f857cc-ae06-452b-abc3-41efc8695f52",
+            "Value": {
+                "id": "2e20db50-dc73-4108-981f-dd78bfc51356",
+                "resourcePath": "views\\73f857cc-ae06-452b-abc3-41efc8695f52.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -671,10 +727,26 @@
             }
         },
         {
+            "Key": "c61bca4b-25c0-4b30-993e-6212d87b0bbd",
+            "Value": {
+                "id": "8103d2d8-7b02-4937-b8f1-5c1c1f48d66c",
+                "resourcePath": "objects\\obj_player_alchemist\\obj_player_alchemist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c8417291-8457-4baf-b0bb-874a98b71d91",
             "Value": {
                 "id": "f6ba966e-adc1-4261-ae8e-4868a995817d",
                 "resourcePath": "sprites\\spr_blue_triangle\\spr_blue_triangle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c8cc279b-46c4-45e8-b0e8-c72b60dfb031",
+            "Value": {
+                "id": "df9a2bf5-1864-45b7-8bf1-5b3ee702cfcc",
+                "resourcePath": "sprites\\spr_player_alchemist_hurt\\spr_player_alchemist_hurt.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -716,6 +788,14 @@
                 "id": "0cad86f8-dde2-4f2c-90b2-939a29397688",
                 "resourcePath": "views\\d0f5a94f-3e2f-4e49-a412-34c8b6d3581b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2624526-45d2-43cb-a2c4-d622d4e5db14",
+            "Value": {
+                "id": "5426740e-b7f5-446a-b2a3-fd364719eef9",
+                "resourcePath": "sprites\\spr_player_alchemist_idle\\spr_player_alchemist_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -879,6 +959,14 @@
             }
         },
         {
+            "Key": "ef06079d-1b54-43a3-859c-26823435f281",
+            "Value": {
+                "id": "13df3a0a-e36d-4be6-8f7e-ea9fa0b5e0b7",
+                "resourcePath": "views\\ef06079d-1b54-43a3-859c-26823435f281.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ef254403-054f-4486-aac0-42d4864149fe",
             "Value": {
                 "id": "217839bc-9b51-4c0f-a4f8-7bc4c43a2325",
@@ -899,6 +987,14 @@
             "Value": {
                 "id": "6cd76fdd-c3f4-4419-9489-d2eb6432e9a7",
                 "resourcePath": "sprites\\spr_medium_water_unit_attack\\spr_medium_water_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f87122cb-13a6-424b-bc6e-17785ac41ee9",
+            "Value": {
+                "id": "c0940777-6a72-4fea-9644-89344eab9a9b",
+                "resourcePath": "sprites\\spr_mountains\\spr_mountains.yy",
                 "resourceType": "GMSprite"
             }
         },
