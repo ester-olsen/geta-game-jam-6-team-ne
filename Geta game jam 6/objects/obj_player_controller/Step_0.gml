@@ -1,5 +1,5 @@
 /// Mana
-var mana_timer_max = 3 * 60;
+var mana_timer_max = 2 * 60;
 
 if (mana_timer == -1) {
 	mana_timer = mana_timer_max;
@@ -62,10 +62,12 @@ else {
 					break;
 				case 2:
 					unit_object_index = obj_medium_fire_unit;
+					mana_cost = 2;
 					label = "MF";
 					break;
 				case 3:
 					unit_object_index = obj_medium_water_unit;
+					mana_cost = 2;
 					label = "MW";
 					break;
 			}

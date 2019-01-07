@@ -19,10 +19,12 @@ with (obj_unit_card) {
 					break;
 				case 2:
 					unit_object_index = obj_medium_fire_unit;
+					mana_cost = 2;
 					label = "MF";
 					break;
 				case 3:
 					unit_object_index = obj_medium_water_unit;
+					mana_cost = 2;
 					label = "MW";
 					break;
 			}
