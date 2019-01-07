@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "4da44b11-bc1a-4ea6-9145-5075d34aef55",
+            "Value": {
+                "id": "96bde79d-21b9-472d-9e01-322753b1ddde",
+                "resourcePath": "sprites\\spr_medium_water_unit_idle\\spr_medium_water_unit_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "505a2fca-e803-4b4e-8dcf-3151d5b4928b",
             "Value": {
                 "id": "d18e1729-227d-46a9-a53a-10df5896e5b9",

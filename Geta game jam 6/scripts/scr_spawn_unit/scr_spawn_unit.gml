@@ -21,4 +21,8 @@ else {
 
 with (instance_create_layer(unit_x, unit_y, "Units", unit_object_index)) {
 	id.is_player = is_player;
+	
+	if (!is_player) {
+		image_xscale = -1;
+	}
 }
