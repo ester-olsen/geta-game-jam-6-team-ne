@@ -44,36 +44,16 @@ else {
 	unit_card.is_highlighted = true;
 	
 	if (mouse_check_button_pressed(mb_left)) && (position_meeting(mouse_x, mouse_y, obj_lane)) && (mana_points >= unit_card.mana_cost) && (!position_meeting(31, 144, parent_object)) {
+		/// Spawn unit
 		var lane = instance_position(mouse_x, mouse_y, obj_lane);
-		var unit_instance_x = lane.x + 16;
-		var unit_instance_y = lane.y + lane.sprite_height / 2;
 		
-		instance_create_layer(unit_instance_x, unit_instance_y, "Units", unit_card.unit_object_index);
+		scr_spawn_unit(unit_card.unit_object_index, lane);
 		
-		with (instance_create_layer(unit_card.x, unit_card.y, layer, obj_unit_card)) {
-			switch (irandom_range(0, 3)) {
-				case 0:
-					unit_object_index = obj_small_fire_unit;
-					label = "SF";
-					break;
-				case 1:
-					unit_object_index = obj_small_water_unit;
-					label = "SW";
-					break;
-				case 2:
-					unit_object_index = obj_medium_fire_unit;
-					mana_cost = 2;
-					label = "MF";
-					break;
-				case 3:
-					unit_object_index = obj_medium_water_unit;
-					mana_cost = 2;
-					label = "MW";
-					break;
-			}
-		}
-		
+		/// Pay mana cost
 		mana_points -= unit_card.mana_cost;
+		
+		/// Replace card
+		scr_draw_unit_card(unit_card.x, unit_card.y);
 		instance_destroy(unit_card);
 		unit_card = noone;
 	}
