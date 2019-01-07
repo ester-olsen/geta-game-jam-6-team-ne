@@ -1,7 +1,8 @@
 /// PROPERTIES ///
 
 is_player = true;
-hit_points = 3;
+maximum_hit_points = 6;
+hit_points = 6;
 
 attack_timer = undefined;
 

@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "905f6283-512e-47f3-a3c4-3a14dccfee47",
-            "Value": {
-                "id": "191df45d-ec6a-4829-80fc-e7fe9ea6f820",
-                "resourcePath": "scripts\\scr_hit_points_component_draw\\scr_hit_points_component_draw.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "93e2b45c-7b2e-4432-85b6-dabf3e433c01",
             "Value": {
                 "id": "a9d75729-3650-4156-b852-0ca32a6e3958",
@@ -428,6 +420,14 @@
                 "id": "0cad86f8-dde2-4f2c-90b2-939a29397688",
                 "resourcePath": "views\\d0f5a94f-3e2f-4e49-a412-34c8b6d3581b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d297cc1a-e900-4b2a-abb3-1a24e7b2dfcd",
+            "Value": {
+                "id": "06988599-ff0f-49ff-a763-620e4c9062c5",
+                "resourcePath": "scripts\\scr_hit_points_component_draw_gui\\scr_hit_points_component_draw_gui.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -561,7 +561,7 @@
     ],
     "script_order": [
         "a80df7d3-e62e-4dd6-99b0-8d332439036e",
-        "905f6283-512e-47f3-a3c4-3a14dccfee47",
+        "d297cc1a-e900-4b2a-abb3-1a24e7b2dfcd",
         "eddeac4c-e559-4ddd-968c-c541ee6271b5",
         "5c661980-7d44-4c38-b420-b98930e65f64",
         "e42335a7-5391-4d01-b51a-a59fa87074c8",
