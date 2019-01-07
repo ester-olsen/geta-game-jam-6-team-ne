@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "49568af6-1dc9-4794-9095-786379f51110",
+            "Value": {
+                "id": "6146c220-18ea-4597-b14f-eea63d10d2c1",
+                "resourcePath": "sprites\\spr_middle_lane_tunnels\\spr_middle_lane_tunnels.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49d23e7f-7df5-4adf-8bc8-c5dafd37b0fe",
             "Value": {
                 "id": "3cc82891-2b1b-4235-96b2-df64e0795276",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "9e04c385-51b6-4afc-adf7-a69a21bf7365",
+            "Value": {
+                "id": "62ba5db9-d8b6-42d3-aa65-c842cff91b5f",
+                "resourcePath": "sprites\\spr_bottom_lane_tunnels\\spr_bottom_lane_tunnels.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1f4a8db-1c6f-4d9f-a5ea-a82adbb44ddf",
             "Value": {
                 "id": "15b48fb9-71d0-415a-be12-4f1f42737850",
@@ -524,6 +540,14 @@
                 "id": "a8307831-c9f1-4ac2-87f0-635eb01cdd93",
                 "resourcePath": "objects\\obj_medium_grass_unit_card\\obj_medium_grass_unit_card.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8036d41-e0a0-4be4-97c9-97cc086784e1",
+            "Value": {
+                "id": "1f871fb5-da4e-4485-8553-b63422d5642b",
+                "resourcePath": "sprites\\spr_top_lane_tunnels\\spr_top_lane_tunnels.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
