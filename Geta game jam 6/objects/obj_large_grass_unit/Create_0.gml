@@ -2,8 +2,8 @@ event_inherited();
 
 hit_points = 6;
 
-is_small_type = true;
-is_effective_against_large = true;
+is_large_type = true;
+is_effective_against_medium = true;
 
 has_grass_element = true;
 is_effective_against_water = true;

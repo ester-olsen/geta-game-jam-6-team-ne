@@ -40,6 +40,10 @@ else if (attack_timer <= 0) {
 		damage++;
 	}
 	
+	if (is_effective_against_large) && (unit.is_large_type) {
+		damage++;
+	}
+	
 	if (is_effective_against_fire) && (unit.has_fire_element) {
 		damage++;
 	}

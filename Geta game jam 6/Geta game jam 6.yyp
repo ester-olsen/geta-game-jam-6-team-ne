@@ -55,11 +55,27 @@
             }
         },
         {
+            "Key": "0fa9b950-0db4-4234-afc8-9a9a44564352",
+            "Value": {
+                "id": "71bc7b5e-2fdb-4e40-bc20-cdc9d5c7e30a",
+                "resourcePath": "sprites\\spr_red_triangle\\spr_red_triangle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11a34cbb-cf10-4d99-90bf-b87102b73c0d",
             "Value": {
                 "id": "1db3ba65-94c1-439e-b1aa-e46a95931552",
                 "resourcePath": "views\\11a34cbb-cf10-4d99-90bf-b87102b73c0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "13468cf8-40a0-4693-906f-a3769e779689",
+            "Value": {
+                "id": "b38dcc41-1be6-4d5f-a101-b62e9d3a60df",
+                "resourcePath": "sprites\\spr_green_triangle\\spr_green_triangle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "4465d3f3-d3ca-4eb3-b508-6f9f0f51aed9",
+            "Value": {
+                "id": "344b4f55-4f96-421b-8fb2-5e1d6b563bb2",
+                "resourcePath": "objects\\obj_large_grass_unit_card\\obj_large_grass_unit_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46d700ae-a5e8-4678-a17b-ade841c3a888",
             "Value": {
                 "id": "a76de01e-3f53-47e9-a340-8e39602aa2bc",
@@ -172,6 +196,14 @@
                 "id": "6ec7fa47-394b-4c0f-a0ad-f9a84fd9ae44",
                 "resourcePath": "views\\4c4e78d3-bc31-4163-94c0-522539dd35f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "505a2fca-e803-4b4e-8dcf-3151d5b4928b",
+            "Value": {
+                "id": "d18e1729-227d-46a9-a53a-10df5896e5b9",
+                "resourcePath": "objects\\obj_large_fire_unit\\obj_large_fire_unit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -271,6 +303,14 @@
             }
         },
         {
+            "Key": "93e2b45c-7b2e-4432-85b6-dabf3e433c01",
+            "Value": {
+                "id": "a9d75729-3650-4156-b852-0ca32a6e3958",
+                "resourcePath": "objects\\obj_large_grass_unit\\obj_large_grass_unit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ad7abc4-49e7-4066-9bdb-935e4f986da3",
             "Value": {
                 "id": "4221a62c-b7b5-4fc2-adfe-224a7fb410da",
@@ -347,6 +387,22 @@
             "Value": {
                 "id": "0f40edca-e05d-45a8-bcf5-295a874f4986",
                 "resourcePath": "sprites\\spr_green_circle\\spr_green_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c35c134e-b2a8-4f28-bdce-a7af5ea500cf",
+            "Value": {
+                "id": "73f3223f-28b4-4c64-b48f-3b27142348c7",
+                "resourcePath": "objects\\obj_large_water_unit_card\\obj_large_water_unit_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8417291-8457-4baf-b0bb-874a98b71d91",
+            "Value": {
+                "id": "f6ba966e-adc1-4261-ae8e-4868a995817d",
+                "resourcePath": "sprites\\spr_blue_triangle\\spr_blue_triangle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -439,6 +495,14 @@
             }
         },
         {
+            "Key": "e4a06d5e-a941-4879-9aa2-f65e7747bd58",
+            "Value": {
+                "id": "d7099410-5833-4932-bd40-9b28b192d49b",
+                "resourcePath": "objects\\obj_large_water_unit\\obj_large_water_unit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed2296c5-1be5-4069-bdf7-2639b624aeca",
             "Value": {
                 "id": "0376b1d5-4f95-4089-acfd-c8a707d208dc",
@@ -460,6 +524,14 @@
                 "id": "5bd02b6d-c073-4956-a10d-1712b569d2a7",
                 "resourcePath": "scripts\\scr_attack_component_step\\scr_attack_component_step.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fa13c5c1-b3a0-40f4-b3c9-f9c25cdb57bb",
+            "Value": {
+                "id": "8872a172-a10b-4962-8cc3-ddd09ef1ab4e",
+                "resourcePath": "objects\\obj_large_fire_unit_card\\obj_large_fire_unit_card.yy",
+                "resourceType": "GMObject"
             }
         },
         {
