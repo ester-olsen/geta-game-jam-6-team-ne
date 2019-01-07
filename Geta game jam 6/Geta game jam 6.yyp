@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "a35e8aad-f551-46e2-9b45-5f97d37b14a2",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "a92243e1-b32a-4977-be90-93f2d18dc3a4",
             "Value": {
                 "id": "0bac0294-6780-4089-b59d-d3631e6e8b1b",
@@ -692,6 +700,14 @@
                 "id": "217839bc-9b51-4c0f-a4f8-7bc4c43a2325",
                 "resourcePath": "views\\ef254403-054f-4486-aac0-42d4864149fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "f18418fe-1dbb-4552-8caa-4ec840938b30",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
