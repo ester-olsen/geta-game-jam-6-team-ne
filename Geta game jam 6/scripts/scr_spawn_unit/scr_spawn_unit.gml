@@ -19,7 +19,7 @@ else {
 	unit_x = lane.x + lane.sprite_width - unit_width / 2;
 }
 
-with (instance_create_layer(unit_x, unit_y, "Units", unit_object_index)) {
+with (instance_create_layer(unit_x, unit_y, lane.layer, unit_object_index)) {
 	id.is_player = is_player;
 	
 	if (!is_player) {

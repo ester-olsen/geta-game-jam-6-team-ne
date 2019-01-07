@@ -8,5 +8,4 @@ window_set_size(display_width, display_height);
 display_set_gui_size(display_width, display_height);
 
 /// Create layers
-layer_create(-100, "Units");
-layer_create(-200, "Cards");
+layer_create(-100, "Cards");
