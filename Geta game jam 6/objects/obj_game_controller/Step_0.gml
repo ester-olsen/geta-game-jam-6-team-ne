@@ -1,3 +1,10 @@
+/// Quit game
+if (keyboard_check_pressed(vk_escape)) {
+	game_end();
+}
+
+/// STATES ///
+
 if (state == "playing") {
 	/// Check for end of game
 	if (!instance_exists(obj_enemy_controller)) {

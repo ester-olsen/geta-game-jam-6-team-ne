@@ -6,10 +6,6 @@ var unit_card_y = argument1;
 var unit_card_object_index;
 var unit_card;
 
-if (!layer_exists("Cards")) {
-	layer_create(-200, "Cards");
-}
-
 switch (irandom_range(0, 8)) {
 	case 0:
 		unit_card_object_index = obj_small_fire_unit_card;
