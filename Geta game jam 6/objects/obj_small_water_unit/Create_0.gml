@@ -5,7 +5,6 @@ hit_points = 6;
 is_small_type = true;
 
 has_water_element = true;
-
 is_effective_against_fire = true;
 
 has_hit_points_component = true;

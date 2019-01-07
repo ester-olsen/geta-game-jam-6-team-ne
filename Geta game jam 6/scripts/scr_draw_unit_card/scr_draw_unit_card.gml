@@ -10,7 +10,7 @@ if (!layer_exists("Cards")) {
 	layer_create(-200, "Cards");
 }
 
-switch (irandom_range(0, 3)) {
+switch (irandom_range(0, 5)) {
 	case 0:
 		unit_card_object_index = obj_small_fire_unit_card;
 		break;
@@ -18,10 +18,16 @@ switch (irandom_range(0, 3)) {
 		unit_card_object_index = obj_small_water_unit_card;
 		break;
 	case 2:
-		unit_card_object_index = obj_medium_fire_unit_card;
+		unit_card_object_index = obj_small_grass_unit_card;
 		break;
 	case 3:
+		unit_card_object_index = obj_medium_fire_unit_card;
+		break;
+	case 4:
 		unit_card_object_index = obj_medium_water_unit_card;
+		break;
+	case 5:
+		unit_card_object_index = obj_medium_grass_unit_card;
 		break;
 }
 

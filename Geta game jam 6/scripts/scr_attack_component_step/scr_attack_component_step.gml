@@ -48,6 +48,10 @@ else if (attack_timer <= 0) {
 		damage++;
 	}
 	
+	if (is_effective_against_grass) && (unit.has_grass_element) {
+		damage++;
+	}
+	
 	unit.hit_points -= damage;
 	attack_timer = undefined;
 }
