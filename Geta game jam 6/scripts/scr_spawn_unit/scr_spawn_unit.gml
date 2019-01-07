@@ -10,7 +10,7 @@ var is_player = argument2;
 /// Variables
 var unit_width = 32;
 var unit_x;
-var unit_y = lane.y + lane.sprite_height / 2;
+var unit_y = lane.y + lane.sprite_height / 2 + 4;
 
 if (is_player) {
 	unit_x = lane.x + unit_width / 2;
