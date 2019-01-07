@@ -14,6 +14,10 @@ else {
 }
 
 if (instance_exists(unit)) {
+	if (unit.is_player == is_player) {
+		sprite_index = idle_sprite;
+	}
+	
 	return;
 }
 
@@ -25,4 +29,8 @@ if (is_player) {
 }
 else {
 	x -= movement;
+}
+
+if (!is_undefined(walk_sprite)) {
+	sprite_index = walk_sprite;
 }

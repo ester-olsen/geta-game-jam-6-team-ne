@@ -223,14 +223,6 @@
             }
         },
         {
-            "Key": "5ba5e49b-0afb-4ee3-811b-1f1dbf34857a",
-            "Value": {
-                "id": "360167d0-b496-46b4-84e8-bba2d14328f7",
-                "resourcePath": "sprites\\spr_background\\spr_background.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5c661980-7d44-4c38-b420-b98930e65f64",
             "Value": {
                 "id": "5da6716f-d820-4c43-81de-50f955d26f75",
@@ -407,6 +399,14 @@
             }
         },
         {
+            "Key": "ccfa3075-9940-4216-96e4-9f4cacd7455a",
+            "Value": {
+                "id": "8b3db864-6e79-4f2a-9b1b-1c5e966c15a1",
+                "resourcePath": "views\\ccfa3075-9940-4216-96e4-9f4cacd7455a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ce473ec9-7d0b-4e33-a34f-45906e2491b2",
             "Value": {
                 "id": "748ad807-5e82-44f1-9b51-04b1c8e0b1b7",
@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "f759b9a1-dce0-494b-beaf-a418722009db",
+            "Value": {
+                "id": "6cd76fdd-c3f4-4419-9489-d2eb6432e9a7",
+                "resourcePath": "sprites\\spr_medium_water_unit_attack\\spr_medium_water_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fa13c5c1-b3a0-40f4-b3c9-f9c25cdb57bb",
             "Value": {
                 "id": "8872a172-a10b-4962-8cc3-ddd09ef1ab4e",
@@ -539,6 +547,14 @@
             "Value": {
                 "id": "22d52813-78d8-40ea-9e9b-ceeccc5f03de",
                 "resourcePath": "sprites\\spr_red_circle\\spr_red_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa6a8809-ebe9-44ad-b705-1d344e57f8a4",
+            "Value": {
+                "id": "a91bc923-304a-415b-9a7a-c90f1e8fda4f",
+                "resourcePath": "sprites\\spr_medium_water_unit_walk\\spr_medium_water_unit_walk.yy",
                 "resourceType": "GMSprite"
             }
         },

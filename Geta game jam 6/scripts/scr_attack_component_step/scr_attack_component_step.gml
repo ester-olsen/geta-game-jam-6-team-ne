@@ -58,4 +58,8 @@ else if (attack_timer <= 0) {
 	
 	unit.hit_points -= damage;
 	attack_timer = undefined;
+	
+	if (!is_undefined(attack_sprite)) {
+		sprite_index = attack_sprite;
+	}
 }

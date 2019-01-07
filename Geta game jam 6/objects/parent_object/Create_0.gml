@@ -25,6 +25,11 @@ is_effective_against_fire = false;
 is_effective_against_water = false;
 is_effective_against_grass = false;
 
+/// Sprites
+idle_sprite = sprite_index;
+walk_sprite = undefined;
+attack_sprite = undefined;
+
 
 /// COMPONENTS ///
 
