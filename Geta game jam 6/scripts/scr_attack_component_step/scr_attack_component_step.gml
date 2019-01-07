@@ -1,11 +1,12 @@
+var unit_width = 32;
 var unit = noone;
 
 /// Get target
 if (is_player) {
-	unit = instance_position(x + sprite_get_width(idle_sprite), y, parent_object);
+	unit = instance_position(x + unit_width, y - 1, parent_object);
 }
 else {
-	unit = instance_position(x - sprite_get_width(idle_sprite), y, parent_object);
+	unit = instance_position(x - unit_width, y - 1, parent_object);
 }
 
 if (!instance_exists(unit)) {

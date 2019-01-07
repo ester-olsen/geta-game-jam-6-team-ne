@@ -8,6 +8,9 @@ is_effective_against_large = true;
 has_water_element = true;
 is_effective_against_fire = true;
 
+walk_sprite = spr_small_water_unit_walk;
+attack_sprite = spr_small_water_unit_attack;
+
 has_hit_points_component = true;
 has_attack_component = true;
 has_movement_component = true;

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1469f106-e50e-4f35-b366-3cb174c62c4a",
+            "Value": {
+                "id": "c5b1d104-cf7b-49ca-b8f9-6fb69c81a52b",
+                "resourcePath": "sprites\\spr_large_grass_unit_idle\\spr_large_grass_unit_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17180075-1b49-47ee-a3ae-fb17c68c5e0c",
             "Value": {
                 "id": "a51bf55f-7a46-41f7-9c8e-386e0b01b42e",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "1fe86f14-bf66-46bf-be37-230f5a0bb84c",
+            "Value": {
+                "id": "17a20cc1-3ae9-46fe-b92e-128e06287ac3",
+                "resourcePath": "sprites\\spr_small_water_unit_walk\\spr_small_water_unit_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "210a3a2c-c202-4e17-b409-3ab5ce931493",
             "Value": {
                 "id": "4f439e68-5f23-4b41-bbca-d73eac2c6319",
@@ -127,6 +143,14 @@
             }
         },
         {
+            "Key": "21a70796-a2bf-4d32-9f2b-a8c1e8e55714",
+            "Value": {
+                "id": "b4107152-614e-46e4-b28a-157ae056f7e6",
+                "resourcePath": "sprites\\spr_large_water_unit_walk\\spr_large_water_unit_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "239ab1f3-8a09-4135-ac82-8a45857c3a96",
             "Value": {
                 "id": "0dddac17-c923-4834-8d1a-8500db367e25",
@@ -135,11 +159,35 @@
             }
         },
         {
+            "Key": "2514c609-629a-4434-8bc5-6602203eb4f4",
+            "Value": {
+                "id": "3c3d0cf5-35e6-4ee3-8f3f-f94982444592",
+                "resourcePath": "sprites\\spr_medium_grass_unit_idle\\spr_medium_grass_unit_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "25da8a10-2b58-48bf-a219-9648bbdcbabf",
+            "Value": {
+                "id": "90a46327-cf19-4f11-a15a-081d10e53102",
+                "resourcePath": "sprites\\spr_medium_grass_unit_attack\\spr_medium_grass_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d28a9dc-3cb0-41b3-a47c-9c4e851f1719",
             "Value": {
                 "id": "bc59e612-25d2-4c00-8141-799b58cf65c1",
                 "resourcePath": "views\\2d28a9dc-3cb0-41b3-a47c-9c4e851f1719.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ebd929e-78f5-4cd5-ad2b-96103eaad301",
+            "Value": {
+                "id": "b9bb70b3-d2cd-42fd-b940-300a550017b6",
+                "resourcePath": "sprites\\spr_small_grass_unit_walk\\spr_small_grass_unit_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,10 +239,26 @@
             }
         },
         {
+            "Key": "41738d65-2b1c-47bc-94bc-38c0491be141",
+            "Value": {
+                "id": "402a489d-8c1e-4e17-8522-c4688579f2ad",
+                "resourcePath": "sprites\\spr_medium_fire_unit_idle\\spr_medium_fire_unit_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "442e88f9-c9bc-4a7c-bdd9-f4a2ad9e905b",
             "Value": {
                 "id": "a8218415-511b-4738-a229-ce392d4f0c6d",
                 "resourcePath": "sprites\\spr_large_fire_unit_card\\spr_large_fire_unit_card.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4433b439-0288-42a6-bad2-50f2eb665cde",
+            "Value": {
+                "id": "42549b34-fb7a-413d-9670-019800758713",
+                "resourcePath": "sprites\\spr_small_fire_unit_walk\\spr_small_fire_unit_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -335,6 +399,22 @@
             }
         },
         {
+            "Key": "665a9d51-e688-4772-a5c0-942793da6e9d",
+            "Value": {
+                "id": "619d32d5-8a1c-40bf-a6af-b31edcecd22f",
+                "resourcePath": "sprites\\spr_large_grass_unit_walk\\spr_large_grass_unit_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "739ff9f9-dc25-4709-b638-927fa6d8ad2b",
+            "Value": {
+                "id": "eae56e31-f299-44a7-ae8f-3dc70dd8b043",
+                "resourcePath": "sprites\\spr_large_fire_unit_attack\\spr_large_fire_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "750fe294-1c66-4077-aca3-89c7ee10da68",
             "Value": {
                 "id": "01b275db-9290-4dc8-886e-f277f304b242",
@@ -383,6 +463,22 @@
             }
         },
         {
+            "Key": "84da948f-124b-452b-bc28-4f1d1548ea76",
+            "Value": {
+                "id": "eee8987e-9dc6-42a1-b6db-4267941fc670",
+                "resourcePath": "sprites\\spr_small_fire_unit_attack\\spr_small_fire_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "878a7a96-442a-43b0-bc59-7af518ee407b",
+            "Value": {
+                "id": "01bfb31c-ce45-40a1-8b24-e61e67875aac",
+                "resourcePath": "sprites\\spr_large_water_unit_idle\\spr_large_water_unit_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88b507fe-4976-4a11-9647-4979b1127c95",
             "Value": {
                 "id": "4b8d47d3-aee1-437e-8aee-6e4bd0ef9505",
@@ -404,6 +500,14 @@
                 "id": "a9d75729-3650-4156-b852-0ca32a6e3958",
                 "resourcePath": "objects\\obj_large_grass_unit\\obj_large_grass_unit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9489ad1d-078c-4f8b-95cb-544ef3286e1c",
+            "Value": {
+                "id": "695165cb-8746-4ab5-81cf-29b17e4c1307",
+                "resourcePath": "sprites\\spr_small_grass_unit_attack\\spr_small_grass_unit_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +599,14 @@
             }
         },
         {
+            "Key": "bacf10ee-0016-43af-8fa1-f783ad7da779",
+            "Value": {
+                "id": "507802f2-a768-416d-9f97-3c76b70e9caa",
+                "resourcePath": "sprites\\spr_medium_fire_unit_walk\\spr_medium_fire_unit_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bbc4ecd2-a5b4-48ae-8240-9b9c7e326e93",
             "Value": {
                 "id": "da3845aa-46d3-4dcd-9461-e136aa57b891",
@@ -503,10 +615,34 @@
             }
         },
         {
+            "Key": "bf324d22-7fd2-4aa6-bbe9-608b69f9bd6a",
+            "Value": {
+                "id": "aeec9549-97c6-4f20-8056-f37051521e38",
+                "resourcePath": "sprites\\spr_medium_fire_unit_attack\\spr_medium_fire_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bf581cc9-a387-44cd-b026-308fa2303b13",
             "Value": {
                 "id": "0f40edca-e05d-45a8-bcf5-295a874f4986",
                 "resourcePath": "sprites\\spr_green_circle\\spr_green_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c068048a-b94f-42e4-b986-3ed7ffcffd98",
+            "Value": {
+                "id": "282e479e-80c4-4a56-ace0-cf43fc3c4104",
+                "resourcePath": "sprites\\spr_large_water_unit_attack\\spr_large_water_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c0c014fe-7358-42a7-bb39-c1d689b98989",
+            "Value": {
+                "id": "8a5527b4-03e4-4fce-a74a-bd3b561b3a51",
+                "resourcePath": "sprites\\spr_large_fire_unit_idle\\spr_large_fire_unit_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -551,6 +687,14 @@
             }
         },
         {
+            "Key": "cee5ff3b-a520-4144-8710-3f406a7d7d3e",
+            "Value": {
+                "id": "86f593a3-5d36-4adb-81d1-2dec50feae5c",
+                "resourcePath": "sprites\\spr_large_grass_unit_attack\\spr_large_grass_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d0f5a94f-3e2f-4e49-a412-34c8b6d3581b",
             "Value": {
                 "id": "0cad86f8-dde2-4f2c-90b2-939a29397688",
@@ -564,6 +708,14 @@
                 "id": "06988599-ff0f-49ff-a763-620e4c9062c5",
                 "resourcePath": "scripts\\scr_hit_points_component_draw_gui\\scr_hit_points_component_draw_gui.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d2d9c566-ea5d-4c8c-9a85-d134b95bedc0",
+            "Value": {
+                "id": "7982f1f6-1e19-4b43-a1c0-8551ce9b445a",
+                "resourcePath": "sprites\\spr_medium_grass_unit_walk\\spr_medium_grass_unit_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -607,6 +759,14 @@
             }
         },
         {
+            "Key": "df6e195c-e211-4e51-b6c3-79572529a779",
+            "Value": {
+                "id": "ca627d81-7c91-4ae8-afc6-8ecc65a55c18",
+                "resourcePath": "sprites\\spr_small_water_unit_attack\\spr_small_water_unit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0c4612d-ce94-4635-bc8a-8498d6c6fc18",
             "Value": {
                 "id": "ac2f51b3-b4fc-4dd5-8ac6-2b773747d309",
@@ -644,6 +804,14 @@
                 "id": "d7099410-5833-4932-bd40-9b28b192d49b",
                 "resourcePath": "objects\\obj_large_water_unit\\obj_large_water_unit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e4a24a91-1599-4782-b62c-1904b8aaaa2f",
+            "Value": {
+                "id": "9f54e268-18e1-4009-9569-13391943152a",
+                "resourcePath": "sprites\\spr_large_fire_unit_walk\\spr_large_fire_unit_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
