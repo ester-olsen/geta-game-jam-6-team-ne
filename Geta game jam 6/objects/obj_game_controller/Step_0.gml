@@ -1,17 +1,30 @@
-/// Toggle fullscreen
-var has_pressed_f = keyboard_check_pressed(ord("F"));
-var is_fullscreen = window_get_fullscreen();
-
-if (has_pressed_f) {
-	window_set_fullscreen(!is_fullscreen);
+if (state == "playing") {
+	/// Check for end of game
+	if (!instance_exists(obj_enemy_controller)) {
+		state = "winning";
+	}
+	
+	if (!instance_exists(obj_player_controller)) {
+		state = "losing";
+	}
 }
-
-/// Game clear
-if (!instance_exists(obj_enemy_controller)) {
-	instance_deactivate_object(obj_lane);
+else if (state == "winning") {
+	/// Game clear
+	with (obj_player_controller) {
+		instance_destroy();
+	}
+	
+	with (parent_object) {
+		is_paused = true;
+	}
 }
-
-/// Game over
-if (!instance_exists(obj_player_controller)) {
-	instance_deactivate_all(true);
+else if (state == "losing") {
+	/// Game over
+	with (obj_enemy_controller) {
+		instance_destroy();
+	}
+	
+	with (parent_object) {
+		is_paused = true;
+	}
 }

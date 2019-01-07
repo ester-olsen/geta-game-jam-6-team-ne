@@ -4,6 +4,7 @@ is_player = true;
 maximum_hit_points = 6;
 hit_points = 6;
 
+is_paused = false;
 attack_timer = undefined;
 
 /// Unit types
