@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "11395883-48d5-4ddd-abf3-36e3d38b25ea",
+            "Value": {
+                "id": "fe1fc869-8d07-4677-a931-6a2712641ded",
+                "resourcePath": "sounds\\snd_mountain_ambience\\snd_mountain_ambience.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "11a34cbb-cf10-4d99-90bf-b87102b73c0d",
             "Value": {
                 "id": "1db3ba65-94c1-439e-b1aa-e46a95931552",
