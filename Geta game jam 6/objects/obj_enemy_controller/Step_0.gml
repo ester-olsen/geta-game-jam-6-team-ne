@@ -33,7 +33,14 @@ if (hit_points <= 0) {
 
 /// STATES ///
 
+var cheapest_unit_card = noone;
 var unprotected_lane = noone;
+
+for (var i = 0; i < array_length_1d(unit_cards); i++) {
+	if (!instance_exists(cheapest_unit_card)) || (unit_cards[i].mana_cost < cheapest_unit_card.mana_cost) {
+		cheapest_unit_card = unit_cards[i];
+	}
+}
 
 with (obj_lane) {
 	if (player_units > 0) && (enemy_units == 0) {
@@ -41,11 +48,20 @@ with (obj_lane) {
 	}
 }
 
-if (instance_exists(unprotected_lane)) && (mana_points > 0) {
+if (instance_exists(unprotected_lane)) && (mana_points >= cheapest_unit_card.mana_cost) {
 	var unit_width = 32;
+	var collision_x = room_width - unit_width + 1;
+	var collision_y = unprotected_lane.y + unprotected_lane.sprite_height / 2;
 	
-	if (!position_meeting(room_width - unit_width + 1, unprotected_lane.y + unprotected_lane.sprite_height / 2, parent_object)) {
-		scr_spawn_unit(obj_small_fire_unit, unprotected_lane, false);
+	if (!position_meeting(collision_x, collision_y, parent_object)) {
+		scr_spawn_unit(cheapest_unit_card.unit_object_index, unprotected_lane, false);
 		mana_points--;
+		
+		for (var i = 0; i < array_length_1d(unit_cards); i++) {
+			if (unit_cards[i] == cheapest_unit_card) {
+				instance_destroy(cheapest_unit_card);
+				unit_cards[i] = scr_draw_unit_card(-room_width, -room_height);
+			}
+		}
 	}
 }
