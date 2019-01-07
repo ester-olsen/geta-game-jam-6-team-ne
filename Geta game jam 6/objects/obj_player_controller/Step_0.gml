@@ -35,8 +35,8 @@ if (hit_points <= 0) {
 
 if (!instance_exists(unit_card)) {
 	/// Pick unit card
-	if (mouse_check_button_pressed(mb_left)) && (position_meeting(mouse_x, mouse_y, obj_unit_card)) {
-		unit_card = instance_position(mouse_x, mouse_y, obj_unit_card);
+	if (mouse_check_button_pressed(mb_left)) && (position_meeting(mouse_x, mouse_y, parent_unit_card)) {
+		unit_card = instance_position(mouse_x, mouse_y, parent_unit_card);
 	}
 }
 else {

@@ -31,18 +31,18 @@
     },
     "resources": [
         {
-            "Key": "027a73b1-44cd-43ef-bde0-d3153f03153c",
+            "Key": "00ec7112-d876-47a1-b74d-ed2a4d602c67",
             "Value": {
-                "id": "f519d632-e651-4850-9531-8d8b9134820d",
-                "resourcePath": "objects\\obj_base\\obj_base.yy",
-                "resourceType": "GMObject"
+                "id": "4f68cc89-9fca-4f4d-8b38-5baeb3335869",
+                "resourcePath": "views\\00ec7112-d876-47a1-b74d-ed2a4d602c67.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
             "Key": "07e31221-5579-4dbe-a23c-ba66d7b4672e",
             "Value": {
                 "id": "184375fa-7e32-4776-89e5-dc8e04532117",
-                "resourcePath": "objects\\obj_unit_card\\obj_unit_card.yy",
+                "resourcePath": "objects\\parent_unit_card\\parent_unit_card.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -67,6 +67,14 @@
             "Value": {
                 "id": "c0ab0275-9345-40e0-8c00-79784dd78327",
                 "resourcePath": "views\\1b1ea0c9-0c05-4d33-8b91-0a901dd29d36.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2148d67c-0d31-4271-9e12-eba326a2e1db",
+            "Value": {
+                "id": "8817c91e-c9f2-47e9-be77-0657568e320d",
+                "resourcePath": "views\\2148d67c-0d31-4271-9e12-eba326a2e1db.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "398c2433-9c28-45b9-97b6-c4c897728e18",
+            "Value": {
+                "id": "b229365d-42fe-4cb0-b7ba-0926c3f2a140",
+                "resourcePath": "objects\\obj_medium_water_unit_card\\obj_medium_water_unit_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "410c3726-5ad3-49f8-b681-d21f3a872865",
             "Value": {
                 "id": "9f185d1f-2284-4deb-adac-4cf452428b69",
@@ -116,6 +132,14 @@
                 "id": "ed632821-5a9d-4514-884f-0ceabdf0aee3",
                 "resourcePath": "views\\482254fc-b0c7-4ded-ada6-05e633f3f106.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "49d23e7f-7df5-4adf-8bc8-c5dafd37b0fe",
+            "Value": {
+                "id": "3cc82891-2b1b-4235-96b2-df64e0795276",
+                "resourcePath": "objects\\obj_medium_fire_unit_card\\obj_medium_fire_unit_card.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -204,14 +228,6 @@
                 "id": "a56d58b0-b0ef-4315-92ed-893b2fed4171",
                 "resourcePath": "views\\7ec93e32-6d17-48d6-8267-c68318c84439.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "8147f444-7884-4931-9b15-d6aca388a898",
-            "Value": {
-                "id": "407c8a44-9d07-4070-bfef-b3cf0812b987",
-                "resourcePath": "objects\\obj_unit\\obj_unit.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "d844e7d7-5923-40a8-a588-f6da937068af",
+            "Value": {
+                "id": "0a71e2d8-b9cc-4258-a884-fbe5a767eb0c",
+                "resourcePath": "objects\\obj_small_water_unit_card\\obj_small_water_unit_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9f877cb-75ac-44c8-b351-d5e5329f6927",
             "Value": {
                 "id": "082e1f86-1fed-4c46-a316-8cee9bf4e5a3",
@@ -372,6 +396,14 @@
                 "id": "0376b1d5-4f95-4089-acfd-c8a707d208dc",
                 "resourcePath": "sprites\\spr_red_square\\spr_red_square.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed2a9551-feb1-44b9-b762-0b9a70a0ffd5",
+            "Value": {
+                "id": "8420a9ed-8521-4541-b3cf-1617e3149efc",
+                "resourcePath": "objects\\obj_small_fire_unit_card\\obj_small_fire_unit_card.yy",
+                "resourceType": "GMObject"
             }
         },
         {

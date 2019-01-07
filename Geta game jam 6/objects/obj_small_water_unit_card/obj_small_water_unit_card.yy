@@ -1,23 +1,23 @@
 {
-    "id": "8147f444-7884-4931-9b15-d6aca388a898",
+    "id": "d844e7d7-5923-40a8-a588-f6da937068af",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_unit",
+    "name": "obj_small_water_unit_card",
     "eventList": [
         {
-            "id": "6da56e39-81f1-43a7-8cd8-75e736878668",
+            "id": "57d1dd4a-015c-4432-a2e9-0a7c39004292",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8147f444-7884-4931-9b15-d6aca388a898"
+            "m_owner": "d844e7d7-5923-40a8-a588-f6da937068af"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "88b507fe-4976-4a11-9647-4979b1127c95",
+    "parentObjectId": "07e31221-5579-4dbe-a23c-ba66d7b4672e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9b768a03-94ef-4b75-9f09-c18851ac7d25",
+    "spriteId": "60085ae9-2a43-43c4-a17e-8ebbf5cf0e1e",
     "visible": true
 }
