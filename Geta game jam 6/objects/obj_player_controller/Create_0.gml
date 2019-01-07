@@ -1,7 +1,11 @@
+hit_points = 5;
+
 mana_points = 0;
 mana_timer = -1;
+
 unit_card = noone;
 
+/// Draw unit cards
 with (obj_unit_card) {
 	with (instance_create_layer(x, y, layer, obj_unit_card)) {
 		switch (irandom_range(0, 3)) {
