@@ -43,11 +43,18 @@ else {
 	/// Pick lane
 	unit_card.is_highlighted = true;
 	
-	if (mouse_check_button_pressed(mb_left)) && (position_meeting(mouse_x, mouse_y, obj_lane)) && (mana_points >= unit_card.mana_cost) && (!position_meeting(31, 144, parent_object)) {
-		/// Spawn unit
+	if (mouse_check_button_pressed(mb_left)) && (position_meeting(mouse_x, mouse_y, obj_lane)) && (mana_points >= unit_card.mana_cost) {
 		var lane = instance_position(mouse_x, mouse_y, obj_lane);
+		var unit_width = 32;
 		
-		scr_spawn_unit(unit_card.unit_object_index, lane);
+		if (position_meeting(unit_width - 1, lane.y + lane.sprite_height / 2, parent_object)) {
+			unit_card.is_highlighted = false;
+			unit_card = noone;
+			return;
+		}
+		
+		/// Spawn unit
+		scr_spawn_unit(unit_card.unit_object_index, lane, true);
 		
 		/// Pay mana cost
 		mana_points -= unit_card.mana_cost;

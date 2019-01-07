@@ -1,3 +1,4 @@
 hit_points = 5;
 
-alarm[0] = 5 * 60;
+mana_points = 0;
+mana_timer = -1;
